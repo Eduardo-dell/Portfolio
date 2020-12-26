@@ -2,6 +2,6 @@
 Class HomeController{
     
     function index(){
-      echo "<center><h1>Home</h1></center>";    
+      echo file_get_contents("app/view/template/template.html");    
     }
 }
