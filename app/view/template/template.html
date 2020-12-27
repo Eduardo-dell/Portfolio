@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <title>Bem Vindo!</title>
+<link rel="stylesheet" href="app/util/bootstrap-4.5/css/bootstrap.css"/>
 <link rel="stylesheet" href="app/view/template/template.css" />
 </head>
 <body>
   <header>
-    <div>
-       <i>Eduardo</i>
-    </div>
-    <nav>
-       <ul>
-         <li><a href="#">Home</a></li>
-         <li><a href="#">Sobre</a></li>
-         <li><a href="#">Resumo</a></li>
-       </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Eduardo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+         <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+         <a class="nav-link" href="#">Sobre</a>
+         <a class="nav-link" href="#">Resumo</a>
+        </div>
+     </div>
+   </nav>
   </header>
+  <section>
+     <div class="card bg-dark text-white">
+       <img src="https://blog.hubspot.com/hubfs/how-to-repost-on-instagram.jpg" class="card-img" alt="...">
+       <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+  </section>
+  <script src="app/util/jquery-3.0.0.slim.js"></script>
+  <script src="app/util/bootstrap-4.5/js/bootstrap.js"></script>
 </body>
 </html>
